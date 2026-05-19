@@ -1,0 +1,19 @@
+/* SB Admin styles */
+body { background-color: #f8f9fc; }
+.sb-nav-fixed .sb-topnav { z-index: 1039; }
+.sb-nav-fixed #layoutSidenav { padding-top: 56px; }
+.sb-nav-fixed #layoutSidenav #layoutSidenav_nav { width: 225px; height: calc(100vh - 56px); z-index: 1038; }
+.sb-nav-fixed #layoutSidenav #layoutSidenav_content { padding-left: 225px; top: 56px; }
+.sb-sidenav { display: flex; flex-direction: column; height: 100%; flex-wrap: nowrap; background-color: #212529; }
+.sb-sidenav .sb-sidenav-menu { flex-grow: 1; overflow-y: auto; }
+.sb-sidenav .sb-sidenav-menu .nav .nav-link { padding: 0.75rem 1rem; }
+.sb-sidenav .sb-sidenav-menu .nav .nav-link .sb-nav-link-icon { margin-right: 0.5rem; }
+.sb-sidenav-dark .sb-sidenav-menu .nav-link { color: rgba(255,255,255,.5); }
+.sb-sidenav-dark .sb-sidenav-menu .nav-link:hover, .sb-sidenav-dark .sb-sidenav-menu .nav-link.active { color: #fff; }
+.sb-sidenav-dark .sb-sidenav-menu .sb-sidenav-menu-heading { color: rgba(255,255,255,.25); font-size: .65rem; font-weight: 700; letter-spacing: .1rem; text-transform: uppercase; padding: 1rem 1rem .5rem; }
+.sb-sidenav-footer { padding: 0.75rem; background-color: rgba(0,0,0,.1); color: rgba(255,255,255,.5); font-size: .75rem; }
+#layoutSidenav { display: flex; }
+#layoutSidenav_nav { flex-basis: 225px; flex-shrink: 0; }
+#layoutSidenav_content { position: relative; display: flex; flex-direction: column; flex: 1 1 0%; min-width: 0; }
+#layoutAuthentication { display: flex; flex-direction: column; min-height: 100vh; }
+#layoutAuthentication_content { flex: 1 1 auto; }
